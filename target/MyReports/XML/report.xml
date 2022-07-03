@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.073">
+    <testcase classname="Make my trip Booking Flight" name="Book a flight Delhi to Bangalore" time="0.008">
+        <system-out>
+            <![CDATA[Given User must be login in make my trip app................................passed
+When click on flight link...................................................passed
+And select on Round trip option.............................................passed
+And Slect From location "Delhi".............................................passed
+And Select To location "Bangalore"..........................................passed
+And select departure date "27May2022".......................................passed
+And select  return date  "30May2022"........................................passed
+Then click on Search button.................................................passed
+And slect the flight........................................................passed
+And Do the payments.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Make my trip Booking Flight" name="Book a flight Mumbai to Pune" time="0.017">
+        <system-out>
+            <![CDATA[Given User must be login in make my trip app................................passed
+When click on flight link...................................................passed
+And select on Round trip option.............................................passed
+And Slect From location "Mumbai"............................................passed
+And Select To location "Pune"...............................................passed
+And select departure date "1May2022"........................................passed
+And select  return date  "15May2022"........................................passed
+Then click on Search button.................................................passed
+And slect the flight........................................................passed
+And Do the payments.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.039">
+    <testcase classname="Login Feature" name="Login Fail - possible combination" time="0">
+        <system-out>
+            <![CDATA[Given User is on Application landing page...................................passed
+When User click on Sign In button...........................................passed
+Then User is displayed login screen.........................................passed
+When User enters "IncorrectUsername" in username field......................passed
+And User enters "123456" in password field..................................passed
+And User click on Sign In button............................................passed
+Then User gets login failed error message...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Feature" name="Login Fail - possible combination 2" time="0">
+        <system-out>
+            <![CDATA[Given User is on Application landing page...................................passed
+When User click on Sign In button...........................................passed
+Then User is displayed login screen.........................................passed
+When User enters "ravilohana" in username field.............................passed
+And User enters "IncorrectPassword" in password field.......................passed
+And User click on Sign In button............................................passed
+Then User gets login failed error message...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Feature" name="Login Fail - possible combination 3" time="0.009">
+        <system-out>
+            <![CDATA[Given User is on Application landing page...................................passed
+When User click on Sign In button...........................................passed
+Then User is displayed login screen.........................................passed
+When User enters "incorrectUsername" in username field......................passed
+And User enters "IncorrectPassword" in password field.......................passed
+And User click on Sign In button............................................passed
+Then User gets login failed error message...................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
